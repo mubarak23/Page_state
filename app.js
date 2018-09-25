@@ -23,3 +23,11 @@ const homeState = function() {
     </div>
   `;
 };
+
+//About state
+const aboutState = function() {
+  document.querySelector('#heading').textContent = 'About Us';
+  document.querySelector('#content').innerHTML = `
+    <p>This is the About Page</p>
+  `;
+};
