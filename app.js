@@ -46,7 +46,12 @@ const contactState = function() {
         <input type="email" class="form-control">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-  
+      </form>  
   `;
 };
+
+//Instantiate page State
+const page = new PageState();
+
+//init the first state
+page.init();
